@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <ctype.h>
+int main()
+{
+    char b[100];
+    gets(b);
+    b[0] = toupper(b[0]);
+    printf("%s", b);
+}
