@@ -1,10 +1,11 @@
 #include <stdio.h>
+#define SIZE 100
 
-int main(){
+int main() {
     int n;
     scanf("%d", &n);
-    int array[100] = {0};
-    int p,q;
+    int array[SIZE] = {0};
+    int p, q;
     int level;
     scanf("%d", &p);
     for (int i = 0; i < p; ++i) {
@@ -23,4 +24,5 @@ int main(){
         }
     }
     printf("I become the guy.");
+    return 0;
 }
