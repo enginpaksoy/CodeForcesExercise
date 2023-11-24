@@ -1,10 +1,16 @@
 #include <stdio.h>
 
+void team_olympiad();
+
 int main() {
+	team_olympiad();
+}
+
+void team_olympiad(){
 	int w, t, min;
-	int p[3][5000], a[3] = {0, 0, 0};
+	int p[3][5000], a[3] = { 0, 0, 0 };
 	scanf("%d", &w);
-	for (size_t i = 0; i < w; i++)
+	for (int i = 0; i < w; i++)
 	{
 		scanf("%d", &t);
 		p[t - 1][a[t - 1]] = i + 1;
